@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: "Roboto", sans-serif;
+
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+.main{
+
+
+    display: flex;
+    height: 100%;
+   /* padding: 20px; */
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content:space-between ;
+}
+#container{
+
+
+    border: 2 px solid white;
+    /* background-color: rgb(27, 27, 37);
+     */
+
+background-color: #0d1117;
+     margin-top: 6px;
+    margin-right: 2px;
+    border-radius: 05px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    padding-top:3% ;
+}
+#head{
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    /* border-bottom: black; */
+    width: 30%;
+    margin-top: 6px;
+    height: 98vh;
+    margin-right: 2px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+    
+
+
+}
+#list{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2.4rem;
+    padding:6% ;
+    gap: 20px;
+    
+    
+}
+.p{
+
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    height: 7rem;
+    font-size: 1.32rem;
+    border-radius:5px ;
+    font-weight: 300;
+    justify-content: space-between;
+}
+.btn{
+    /* background-color: rgb(14, 190, 58); */
+    background-color: #30ff2bcc;
+    color: white;
+    width: 8rem;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.textt{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 194, 29);
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.textt2{
+    width: 100%;
+    display: flex;
+    /* align-content: center; */
+    padding-left: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+color: white;
+}
+.dis{
+
+
+    color: rgba(255, 255, 255, 0.842);
+    font-weight: 100;
+    display: flex;
+    position: absolute;
+    /* background-color: rgb(0, 0, 0); */
+    bottom: 20px;
+    /* left: 31%;
+     */
+     width: 94%;
+margin: 0px 2% ;
+     align-items: center;
+    justify-content: space-between;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+
+ 
+    <div id="head">
+        <div id="list">
+
+        
+       <div style="padding-left: 10px;">
+        Lets Sort
+        </div>
+        <div class="p ">
+           
+           <div class="textt2">
+            Bubble Sort
+           </div> 
+
+            <button id="bbsBtn" class="btn">Bubble Sort</button>
+
+        </div>
+        <div class="p ">
+            <div class="textt2">Quick Sort</div>
+            <button id="qsBtn" class="btn">Quick Sort</button>
+
+
+        </div>
+        <div class="p">
+            <div class="textt2">Reset</div>
+
+            <button id="resetBtn" style="background-color: #910101;" class="btn">Reset</button> 
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+    </div>
+    </div>
+    <div id="container" style="display: flex; height:84vh;width: 70%; justify-content: center; align-items: flex-end;" >
+
+
+    </div>
+
+</div>
+<div class="dis">
+    <div>
+
+
+   <a href="https://www.linkedin.com/in/subhajit-lai/"><img width="30" height="30"  src="https://img.icons8.com/ios-glyphs/30/FFFFFF/linkedin.png" alt="linkedin"/>   </a> 
+<a href="https://github.com/ItsSubhoo"><img width="28" height="28" src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" alt="github"/></a> </div> *this is a demonstration on how sorting works
+</div>
+</body>
+<script src="script.js"></script>
+</html>
