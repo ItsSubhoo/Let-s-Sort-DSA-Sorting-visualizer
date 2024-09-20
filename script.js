@@ -203,8 +203,8 @@ function animate(moves, copy) {
         [copy[i], copy[j]] = [copy[j], copy[i]];
 
 
-    playNode(100+copy[i]*500)
-    playNode(100+copy[j]*500)
+    playNode(200+copy[i]*500)
+    playNode(200+copy[j]*500)
     ShowBars(copy, i, j);
     setTimeout(() => {
         animate(moves, copy)
